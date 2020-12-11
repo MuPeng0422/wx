@@ -1,0 +1,106 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			},
+			"disableScroll": true
+		},
+		{
+			"path": "pages/tabbar/sales/index",
+			"style": {
+				"navigationBarTitleText": "销货"
+			}
+		},
+		{
+			"path": "pages/tabbar/purchase/index",
+			"style": {
+				"navigationBarTitleText": "进货"
+			}
+		},
+		{
+			"path": "pages/tabbar/user/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/address/index",
+			"style": {
+				"navigationBarTitleText": "地址管理"
+			}
+		},
+		{
+			"path": "pages/address/addsite",
+			"style": {
+				"navigationBarTitleText": "新增收货地址"
+			}
+		},
+		{
+			"path":"pages/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		},
+		{
+			"path":"pages/reflect/index",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path":"pages/giveGoods/index",
+			"style": {
+				"navigationBarTitleText": "待配送"
+			}
+		},
+		{
+			"path":"pages/collectGoods/index",
+			"style": {
+				"navigationBarTitleText": "待收货"
+			}
+		},
+		{
+			"path":"pages/profit/index",
+			"style": {
+				"navigationBarTitleText": "销货记录"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "五月春华仓储",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"color": "#8F8F94",
+		"selectedColor": "#f33e54",
+		"list": [
+			{
+				"pagePath": "pages/tabbar/sales/index",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "销货"
+			},
+			{
+				"pagePath": "pages/tabbar/purchase/index",
+				"iconPath": "static/img/tabbar/add.png",
+				"selectedIconPath": "static/img/tabbar/addactive.png",
+				"text": "进货"
+			},
+			{
+				"pagePath": "pages/tabbar/user/index",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "我的"
+			}
+		]
+	}
+}

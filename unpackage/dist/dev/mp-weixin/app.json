@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/tabbar/sales/index",
+    "pages/tabbar/purchase/index",
+    "pages/tabbar/user/index",
+    "pages/address/index",
+    "pages/address/addsite",
+    "pages/order/index",
+    "pages/reflect/index",
+    "pages/giveGoods/index",
+    "pages/collectGoods/index",
+    "pages/profit/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "五月春华仓储",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "color": "#8F8F94",
+    "selectedColor": "#f33e54",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/sales/index",
+        "iconPath": "static/img/tabbar/home.png",
+        "selectedIconPath": "static/img/tabbar/homeactive.png",
+        "text": "销货"
+      },
+      {
+        "pagePath": "pages/tabbar/purchase/index",
+        "iconPath": "static/img/tabbar/add.png",
+        "selectedIconPath": "static/img/tabbar/addactive.png",
+        "text": "进货"
+      },
+      {
+        "pagePath": "pages/tabbar/user/index",
+        "iconPath": "static/img/tabbar/me.png",
+        "selectedIconPath": "static/img/tabbar/meactive.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap59.json"
+}

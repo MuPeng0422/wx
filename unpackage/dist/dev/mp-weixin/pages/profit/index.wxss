@@ -1,0 +1,310 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content.data-v-1c3682c0 {
+  padding: 20rpx;
+}
+.content .search.data-v-1c3682c0 {
+  width: 100%;
+  height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.content .search .searchbox.data-v-1c3682c0 {
+  width: 100%;
+}
+.content .todayData.data-v-1c3682c0 {
+  width: 100%;
+  background-color: #71D5A1;
+  padding: 20rpx;
+  box-shadow: 0 10px 15px 0 rgba(4, 40, 60, 0.18);
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+}
+.content .todayData .todaydate.data-v-1c3682c0 {
+  padding: 20rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.content .todayData .todaydate .date.data-v-1c3682c0 {
+  width: 30%;
+  font-size: 36rpx;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+}
+.content .todayData .todaydate .time.data-v-1c3682c0 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 36rpx;
+  border-radius: 5rpx;
+  padding: 5rpx 10rpx;
+  background-color: #ededed;
+}
+.content .todayData .title.data-v-1c3682c0 {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+  color: #000000;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.content .todayData .title .date.data-v-1c3682c0 {
+  width: 30%;
+  text-align: center;
+}
+.content .todayData .title .total.data-v-1c3682c0 {
+  width: 30%;
+  text-align: center;
+}
+.content .todayData .title .price.data-v-1c3682c0 {
+  width: 30%;
+  text-align: center;
+}
+.content .todayData .data.data-v-1c3682c0 {
+  margin-bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.content .todayData .data .date.data-v-1c3682c0 {
+  width: 30%;
+  text-align: center;
+  border-radius: 5rpx;
+  padding: 5rpx 10rpx;
+  background-color: #ededed;
+}
+.content .todayData .data .date ._span.data-v-1c3682c0 {
+  font-size: 36rpx;
+  font-weight: 900;
+  color: #ff0000;
+}
+.content .todayData .data .total.data-v-1c3682c0 {
+  width: 30%;
+  padding: 5rpx 10rpx;
+  border-radius: 5rpx;
+  text-align: center;
+  background-color: #ededed;
+}
+.content .todayData .data .total ._span.data-v-1c3682c0 {
+  font-size: 36rpx;
+  font-weight: 900;
+  color: #ff0000;
+}
+.content .todayData .data .price.data-v-1c3682c0 {
+  width: 30%;
+  padding: 5rpx 10rpx;
+  border-radius: 5rpx;
+  text-align: center;
+  background-color: #ededed;
+}
+.content .todayData .data .price ._span.data-v-1c3682c0 {
+  font-size: 36rpx;
+  font-weight: 900;
+  color: #ff0000;
+}
+.content .no-order-list.data-v-1c3682c0 {
+  width: 100%;
+}
+.content .no-order-list .empty.data-v-1c3682c0 {
+  width: 100%;
+  padding: 100rpx;
+  background-color: #FFFFFF;
+  border-radius: 10rpx;
+}
+.content .profit-list.data-v-1c3682c0 {
+  width: 100%;
+}
+.content .profit-list .profit-list-item.data-v-1c3682c0 {
+  margin-bottom: 20rpx;
+}
+.content .profit-list .profit-list-item .profit-list-item-total.data-v-1c3682c0 {
+  width: 100%;
+  padding: 20rpx;
+  background-color: #FFFFFF;
+  box-shadow: 0 10px 15px 0 rgba(4, 40, 60, 0.18);
+  border-radius: 10rpx;
+  position: relative;
+}
+.content .profit-list .profit-list-item .profit-list-item-total .title.data-v-1c3682c0 {
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+  color: #003e11;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.content .profit-list .profit-list-item .profit-list-item-total .title .date.data-v-1c3682c0 {
+  width: 30%;
+  text-align: center;
+}
+.content .profit-list .profit-list-item .profit-list-item-total .title .total.data-v-1c3682c0 {
+  width: 30%;
+  text-align: center;
+}
+.content .profit-list .profit-list-item .profit-list-item-total .title .price.data-v-1c3682c0 {
+  width: 30%;
+  text-align: center;
+}
+.content .profit-list .profit-list-item .profit-list-item-total .data.data-v-1c3682c0 {
+  margin-bottom: 20rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.content .profit-list .profit-list-item .profit-list-item-total .data .date.data-v-1c3682c0 {
+  width: 30%;
+  text-align: center;
+  border-radius: 5rpx;
+  padding: 5rpx 10rpx;
+  background-color: #ededed;
+}
+.content .profit-list .profit-list-item .profit-list-item-total .data .total.data-v-1c3682c0 {
+  width: 30%;
+  padding: 5rpx 10rpx;
+  border-radius: 5rpx;
+  text-align: center;
+  background-color: #ededed;
+}
+.content .profit-list .profit-list-item .profit-list-item-total .data .price.data-v-1c3682c0 {
+  width: 30%;
+  padding: 5rpx 10rpx;
+  border-radius: 5rpx;
+  text-align: center;
+  background-color: #ededed;
+}
+.content .profit-list .profit-list-item .profit-list-item-total .itemBtn.data-v-1c3682c0 {
+  width: 50%;
+  margin: 0 auto;
+}
+.content .profit-list .profit-list-item .profit-list-item-total .itemBtn ._span.data-v-1c3682c0 {
+  padding-right: 10rpx;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList.data-v-1c3682c0 {
+  padding: 30rpx 10rpx;
+  background-color: #eeffe5;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList .title.data-v-1c3682c0 {
+  font-size: 30rpx;
+  line-height: 50rpx;
+  color: #003e11;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList .title .name.data-v-1c3682c0 {
+  width: 19%;
+  text-align: center;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList .title .price.data-v-1c3682c0 {
+  width: 19%;
+  text-align: center;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList .title .number.data-v-1c3682c0 {
+  width: 19%;
+  text-align: center;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList .title .yield.data-v-1c3682c0 {
+  width: 19%;
+  text-align: center;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList .title .interests.data-v-1c3682c0 {
+  width: 19%;
+  text-align: center;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList .data.data-v-1c3682c0 {
+  line-height: 40rpx;
+  margin-bottom: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList .data .name.data-v-1c3682c0 {
+  width: 19%;
+  padding: 5rpx 10rpx;
+  border-radius: 5rpx;
+  text-align: center;
+  background-color: #ededed;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList .data .price.data-v-1c3682c0 {
+  width: 19%;
+  padding: 5rpx 10rpx;
+  border-radius: 5rpx;
+  text-align: center;
+  background-color: #ededed;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList .data .number.data-v-1c3682c0 {
+  width: 19%;
+  padding: 5rpx 10rpx;
+  border-radius: 5rpx;
+  text-align: center;
+  background-color: #ededed;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList .data .yield.data-v-1c3682c0 {
+  width: 14%;
+  padding: 5rpx 10rpx;
+  border-radius: 5rpx;
+  text-align: center;
+  background-color: #ededed;
+}
+.content .profit-list .profit-list-item .profit-list-item-detailsList .data .interests.data-v-1c3682c0 {
+  width: 19%;
+  padding: 5rpx 10rpx;
+  border-radius: 5rpx;
+  text-align: center;
+  background-color: #ededed;
+}
+

@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "销货",
+  "usingComponents": {
+    "u-loading": "/uview-ui/components/u-loading/u-loading",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-checkbox-group": "/uview-ui/components/u-checkbox-group/u-checkbox-group",
+    "u-checkbox": "/uview-ui/components/u-checkbox/u-checkbox",
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-input": "/uview-ui/components/u-input/u-input",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-modal": "/uview-ui/components/u-modal/u-modal",
+    "u-toast": "/uview-ui/components/u-toast/u-toast"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "待配送",
+  "usingComponents": {
+    "u-image": "/uview-ui/components/u-image/u-image",
+    "u-empty": "/uview-ui/components/u-empty/u-empty",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}
